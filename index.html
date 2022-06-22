@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interest Calculator</title>
+
+    <!-- Personal CSS -->
+    <link rel="stylesheet" href="./Styles/Style.css">
+
+    <!-- icon -->
+    <link rel="icon" href="./Icon/1650861185003-removebg-preview - Copy.png">
+
+</head>
+
+<body>
+
+    <nav id="navbar">
+        <img id="logo" src="./Gif/output-onlinegiftools.gif" alt="">
+
+        <a href="https://github.com/bulelaniskhikhi" target="_blank">
+            <button style=" width: 8rem;">
+                follow my github
+            </button>
+        </a>
+    </nav>
+
+
+    <div id="container">
+
+        <h1>✧･ﾟ: *✧･ﾟ:*Interest Calculator*:･ﾟ✧*:･ﾟ✧</h1>
+
+        <br>
+
+        <div>
+
+            <label for="initial">
+                Initial Amount:
+            </label>
+
+            <br>
+
+            <input type="text" name="initial" id="initial">
+
+        </div>
+
+
+        <div>
+
+            <br>
+            <label for="interest">
+                Interest Rate:
+            </label>
+
+            <br>
+
+            <input type="text" name="interest" id="interest" placeholder="%">
+
+            <br>
+            <br>
+
+            <label for="Years">
+                Amount of Years:
+            </label>
+
+            <br>
+
+            <input type="text" name="Years" id="years">
+
+            <br>
+            <br>
+
+            <label for="interestType">
+                Interest Type:
+            </label>
+
+            <br>
+
+            <select name="interestType" id="interestType">
+
+                <option value="">
+                    Select Interest Type
+                </option>
+
+                <option value="simple">
+                    Simple Interest
+                </option>
+
+                <option value="compound">
+                    Compound Interest
+                </option>
+
+            </select>
+
+            <br>
+            <br>
+
+            <label for="compounded">
+                Times Compounded:
+            </label>
+
+            <br>
+
+            <select name="interestType" id="compounded">
+
+                <option value="">
+                    Select Compound Rate
+                </option>
+
+                <option value="1">
+                    Annually
+                </option>
+
+                <option value="4">
+                    Quarterly
+                </option>
+
+                <option value="6">
+                    Semi-Annually
+                </option>
+
+                <option value="12">
+                    Monthly
+                </option>
+
+            </select>
+        </div>
+
+        <br>
+
+        <div>
+
+            <button id="calculate">
+                Calculate
+            </button>
+
+            <button id="clear">
+                Reset
+            </button>
+
+        </div>
+
+        <br>
+
+        <div>
+
+            <label for="interestAmount">
+                Interest Amount:
+            </label>
+
+            <div type="text" name="interestAmount" id="interestAmount">
+                <!--  -->
+            </div>
+
+        </div>
+
+        <!-- My JS -->
+        <script src="./Script/Code.js"></script>
+
+</body>
+
+</html>
